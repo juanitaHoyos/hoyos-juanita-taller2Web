@@ -1,0 +1,187 @@
+[
+
+    {
+        "nombre": "template",
+        "dias": 3,
+        "estrellas":5,
+        "precio": 4000,
+        "etiquetas": ["trending", "aleatorio", "cruceros", "ecologico", "pet friendly", "para niños", "playas", "historico"]
+        
+    }
+,
+    {
+        "nombre": "bahamas",
+        "dias": 3,
+        "estrellas":5,
+        "precio": 4000,
+        "etiquetas": ["trending","ecologico", "playas", "aleatorio"]
+        
+    }
+
+    ,
+    {
+        "nombre": "venecia",
+        "dias": 7,
+        "estrellas":5,
+        "precio": 14000,
+        "etiquetas": ["trending","pet friendly", "para niños", "aleatorio", "historico"]
+        
+    }
+
+    ,
+    {
+        "nombre": "disney",
+        "dias": 5,
+        "estrellas":5,
+        "precio": 6000,
+        "etiquetas": ["trending",  "para niños", "aleatorio"]
+        
+    }
+
+    ,
+    {
+        "nombre": "patagonia",
+        "dias": 4,
+        "estrellas":4,
+        "precio": 4000,
+        "etiquetas": [  "ecologico", "aleatorio"]
+        
+    }
+,
+{
+    "nombre": "paris",
+    "dias": 8,
+    "estrellas":5,
+    "precio": 14000,
+    "etiquetas": ["trending", "aleatorio", "pet friendly", "para niños"]
+    
+}
+,
+{
+    "nombre": "alpes suizos",
+    "dias": 5,
+    "estrellas":3,
+    "precio": 4000,
+    "etiquetas": [ "aleatorio",  "ecologico", "pet friendly"]
+    
+}
+,
+{
+    "nombre": "amsterdam",
+    "dias": 7,
+    "estrellas":5,
+    "precio": 9000,
+    "etiquetas": ["aleatorio", "pet friendly"]
+    
+}
+,
+{
+    "nombre": "mediterraneo",
+    "dias": 3,
+    "estrellas":5,
+    "precio": 4000,
+    "etiquetas": ["trending", "aleatorio", "cruceros", "para niños", "playas"]
+    
+}
+,
+{
+    "nombre": "yellowstone",
+    "dias": 3,
+    "estrellas":5,
+    "precio": 4000,
+    "etiquetas": ["aleatorio", "ecologico"]
+    
+}
+,
+{
+    "nombre": "roma",
+    "dias": 10,
+    "estrellas":5,
+    "precio": 14000,
+    "etiquetas": [ "aleatorio","pet friendly",  "historico"]
+    
+}
+,
+{
+    "nombre": "caribe",
+    "dias": 12,
+    "estrellas":5,
+    "precio": 9000,
+    "etiquetas": ["trending", "aleatorio", "cruceros", "para niños", "playas"]
+    
+}
+,
+{
+    "nombre": "cartagena",
+    "dias": 5,
+    "estrellas":4,
+    "precio": 6000,
+    "etiquetas": ["trending", "aleatorio", "pet friendly", "para niños", "playas","historico"]
+    
+}
+,
+{
+    "nombre": "machu pichu",
+    "dias": 3,
+    "estrellas":3,
+    "precio": 3000,
+    "etiquetas": [ "aleatorio", "ecologico", "historico"]
+    
+}
+
+,
+{
+    "nombre": "kenya",
+    "dias": 14,
+    "estrellas":3,
+    "precio": 6000,
+    "etiquetas": ["trending", "aleatorio", "ecologico"]
+    
+}
+,
+{
+    "nombre": "moscu",
+    "dias": 5,
+    "estrellas":4,
+    "precio": 4000,
+    "etiquetas": ["trending", "aleatorio", "historico"]
+    
+}
+,
+{
+    "nombre": "stonehenge",
+    "dias": 6,
+    "estrellas":3,
+    "precio": 3000,
+    "etiquetas": ["aleatorio", "historico"]
+    
+}
+,
+{
+    "nombre": "india",
+    "dias": 15,
+    "estrellas":3,
+    "precio": 7000,
+    "etiquetas": [ "aleatorio", "historico"]
+    
+}
+,
+{
+    "nombre": "cancun",
+    "dias": 7,
+    "estrellas":5,
+    "precio": 8000,
+    "etiquetas": ["trending", "aleatorio", "ecologico", "pet friendly", "para niños", "playas", "historico"]
+    
+}
+,
+{
+    "nombre": "cappadocia",
+    "dias": 6,
+    "estrellas":4,
+    "precio": 5000,
+    "etiquetas": ["aleatorio","ecologico", "pet friendly", "para niños", "playas", "historico"]
+    
+}
+
+]
