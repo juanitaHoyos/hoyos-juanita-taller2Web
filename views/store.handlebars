@@ -14,5 +14,13 @@
  <a href="/">Home</a>
  <a href="/store">store</a>
     </nav>
+
+    {{#each listaProductos}}
+    <div class="producto">
+        <h3>{{nombre}}</h3>
+        <h5>{{precio}}</h5>
+    </div>
+    {{/each}}
+
 </body>
 </html>

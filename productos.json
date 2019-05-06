@@ -1,11 +1,11 @@
 [
 
     {
-        "nombre": "template",
-        "dias": 3,
+        "nombre": "shangai",
+        "dias": 6,
         "estrellas":5,
-        "precio": 4000,
-        "etiquetas": ["trending", "aleatorio", "cruceros", "ecologico", "pet friendly", "para niños", "playas", "historico"]
+        "precio": 6000,
+        "etiquetas": [ "aleatorio"]
         
     }
 ,
@@ -180,7 +180,7 @@
     "dias": 6,
     "estrellas":4,
     "precio": 5000,
-    "etiquetas": ["aleatorio","ecologico", "pet friendly", "para niños", "playas", "historico"]
+    "etiquetas": ["aleatorio","ecologico", "historico"]
     
 }
 
