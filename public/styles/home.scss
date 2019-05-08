@@ -940,6 +940,7 @@
         background-image: none;
        
         width: 60%;
+        height: 400px;
        
   
       & .especificaciones__uno{
@@ -990,7 +991,7 @@
       }
   
       &__txt{
-        padding: 10px;
+       // padding: 10px;
         opacity: 0;
         transition: 600ms;
       }
@@ -1003,6 +1004,7 @@
       background-image: none;
      
       width: 60%;
+      height: 400px;
      
   
     & .especificaciones__dos{
@@ -1066,6 +1068,7 @@
     background-image: none;
    
     width: 60%;
+    height: 400px;
    
   
   & .especificaciones__tres{
