@@ -48,6 +48,16 @@ app.get('/store', function(req,res){
         query.dias = parseInt(req.query.dias);
     }
     
+
+    if(req.query.estrellas){
+        query.estrellas = parseInt(req.query.estrellas);
+    }
+
+    if(req.query.precio){
+        query.precio = parseInt(req.query.precio);
+    }
+    
+  
     const productos = db.collection('productos');
     
     productos.find(query,{}).toArray(function(err, docs){
