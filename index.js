@@ -72,6 +72,23 @@ app.get('/store', function(req,res){
     
 });
 
+app.get('/producto/:nombre', function(req, res){
+    
+    const productos = db.collection('productos');
+
+    productos.find({nombre: req.params.nombre},{}).toArray(function(err, docs){
+        assert.equal(null,err);
+        console.log('encontramos los docs');
+        
+        console.log(docs[0]);
+
+        var contexto = docs[0];
+
+        res.render('producto', contexto);        
+    });
+    
+});
+
 app.listen(3000,function(){
     console.log('hola!');
 });

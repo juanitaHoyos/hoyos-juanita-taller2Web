@@ -20,11 +20,11 @@
         
             <article class="seccion-productos">
     {{#each listaProductos}}
-    <div class="producto">
+    <a class="producto" href="/producto/{{nombre}}">
         <img src={{urlImg}} alt="">
         <h3>{{nombre}}</h3>
         <h5>{{precio}}</h5>
-    </div>
+    </a>
     {{/each}}
 
     <!-- puto el que lo lea -->
