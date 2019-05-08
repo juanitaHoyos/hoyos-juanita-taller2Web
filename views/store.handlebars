@@ -15,7 +15,24 @@
  <a href="/store">store</a>
     </nav>
 
-     <a href="/store?dias=1">1</a>
+    
+    <section class="tienda">
+        
+            <article class="seccion-productos">
+    {{#each listaProductos}}
+    <div class="producto">
+        <img src={{urlImg}} alt="">
+        <h3>{{nombre}}</h3>
+        <h5>{{precio}}</h5>
+    </div>
+    {{/each}}
+
+    <!-- puto el que lo lea -->
+    </article>
+
+    <article class="seccion-lateral">
+
+         <a href="/store?dias=1">1</a>
      <a href="/store?dias=2">2</a>
      <a href="/store?dias=3">3</a>
      <a href="/store?dias=4">4</a>
@@ -27,22 +44,15 @@
      <a href="/store?estrellas=4">4 estrellas</a>
      <a href="/store?estrellas=5">5 estrellas</a>
 
-     <input type="range" name="precio" min="1000" max="16000">
-
-    <section class="seccion-productos">
-        {{#each listaProductos}}
-    <div class="producto">
-        <img src={{urlImg}} alt="">
-        <h3>{{nombre}}</h3>
-        <h5>{{precio}}</h5>
-
-    </div>
-    {{/each}}
+    <input value={{valorInput}} id="inputPrecio" type="range" name="precio" min="1000" max="16000">
 
 
-    </section>
+    </article>
     
-  
+    </section>
+
+
+  <script src="/js/store.js"></script>
 
 </body>
 </html>

@@ -8,6 +8,13 @@
     color: rgb(0, 117, 16);
 }
 
+.tienda{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+flex-shrink: 0;
+}
 
 .seccion-productos{
     padding-top: 5%;
@@ -23,6 +30,7 @@
 
 }
 .producto{
+
     background-color: rgb(46, 75, 75);
     margin-top: 10px;
     margin-bottom: 10px;
@@ -37,3 +45,12 @@
     }
 }
 
+.seccion-lateral{
+    background-color: green;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}

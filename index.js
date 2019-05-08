@@ -54,9 +54,8 @@ app.get('/store', function(req,res){
     }
 
     if(req.query.precio){
-        query.precio = parseInt(req.query.precio);
-    }
-    
+        query.precio = { $lte: parseInt(req.query.precio) };
+    } 
   
     const productos = db.collection('productos');
     
@@ -65,7 +64,8 @@ app.get('/store', function(req,res){
         console.log('encontramos los docs');
         
         var contexto = {
-            listaProductos: docs
+            listaProductos: docs,
+            valorInput: req.query.precio|1000
         };
         res.render('store', contexto);        
     });
