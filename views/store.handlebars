@@ -65,10 +65,10 @@
     {{#each listaProductos}}
     <div class="producto">
          <a class="producto-link" href="/producto/{{nombre}}">
-        <img src={{urlImg}} alt="">
+        <img  class="producto__imagen" src={{urlImg}} alt="">
         </a>
-        <h3>{{nombre}}</h3>
-        <h5>{{precio}}</h5>
+        <h3 class="producto__nombre">{{nombre}}</h3>
+        <h5 class="producto__precio">{{precio}}</h5>
         <button name="{{nombre}}" class="agregar">Agregar</button>
 
     </div>
@@ -99,6 +99,16 @@
     </article>
     
     </section>
+
+     <div class="carrito">
+        <p>Carrito</p>
+        <span class="carrito__num"></span>
+    </div>
+
+    <div class="carrito-desplegado">
+        <h3>Carrito</h3>
+        <ul class="carrito-desplegado__lista"></ul>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
  <script src="/js/libs/parallax.js"></script>

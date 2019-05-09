@@ -11,9 +11,11 @@
     <h1>{{ nombre }}</h1>
      <div class="producto">
        
-        <img src={{urlImg}} alt="">
-        
        
+        <img  class="producto__imagen" src={{urlImg}} alt="">
+        
+        <h3 class="producto__nombre">{{nombre}}</h3>
+        <h5 class="producto__precio">{{precio}}</h5>
         <h5>{{precio}}</h5>
         <button name="{{nombre}}" class="agregar">Agregar</button>
 
