@@ -66,20 +66,38 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
- <img  class="productoF__icono" src="../images/persona.png" alt="" height="21px" width="7px">
+            <div class="productoF__especificaciones">
+                <div class="productoF__cont-item">
+                    <div class="productoF__item"> <img  class="productoF__icono" src="../images/persona.png" alt="" height="21px" width="7px">
+                    <p class="productoF__itemD"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+           
+                 </div>
 
-  <img class="productoF__icono2" src="../images/estrellas.png" alt="calificacion" height="21">
-            <ul class="productoF__especificaciones">
-                 
-                <li class="productoF__item">
-                     <img  class="productoF__icono" data-src="../public/images/Ipersona.png" alt="">
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                  <div class="productoF__cont-item">
+                    <div class="productoF__item"> <img  class="productoF__icono" src="../images/cubiertos.png" alt="" height="21px" width="20px">
+                    <p class="productoF__itemD"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+           
+                 </div>
 
-            </ul>
+                <div class="productoF__cont-item">
+                    <div class="productoF__item"> <img  class="productoF__icono" src="../images/reloj.png" alt="" height="21px" width="21px">
+                    <p class="productoF__itemD"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+           
+                 </div>
+
+                 <div class="productoF__cont-item">
+                    <div class="productoF__item"> <img  class="productoF__icono" src="../images/cama.png" alt="" height="15px" width="22px">
+                    <p class="productoF__itemD"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+           
+                         
+             </div>
+               
+             
+            </div>
+         
+
+
+             
              <button name="{{nombre}}" class="agregar">Agregar</button>
 
         </section>
@@ -89,16 +107,53 @@
       
      </div>
        
+      <section class="inscripcion" data-src={{urlImg}} data-pos-x="left" data-parallax>
 
-        <div class="carrito">
-        <p>Carrito</p>
-        <span class="carrito__num"></span>
-    </div>
+        <div class="inscripcion__cont">
+            <h4 class="inscripcion__cont__frase"><em>"La gente no hace viajes, son los viajes los que hacen a la gente"</em> </h4>
+            <p class="inscripcion__cont__nombre">-John Steinbeck</p>
+        </div>
 
-    <div class="carrito-desplegado">
-        <h3>Carrito</h3>
-        <ul class="carrito-desplegado__lista"></ul>
-    </div>
+    </section>
+
+
+     <section class="footer">
+
+      
+        <div class="footer__cont">
+                <div class="footer__cont__contacto">
+                        <h3 class="footer__cont__contacto__titulo">Contacto</h3>
+                   <p class="footer__cont__contacto__txt">  ultrices, morbi turpis nascetur ante iaculis sodales  </p>
+           
+                   </div>
+                   <div class="footer__cont__local">
+                           <h3 class="footer__cont__local__titulo">¿Dónde encontrarnos?</h3>
+                           <p class="footer__cont__local__txt">Lorem ipsum dolor sit amet consectetur adipiscing elit ultrices, morbi turpis nascetur ante iaculis sodales fringilla, faucibus vel cursus velit at phasellus placerat. Leo nullam vel ultrices aptent natoque velit, dictumst laoreet  </p>
+           
+                   </div>
+        </div>
+      
+        <div class="footer__suscripcion">
+
+                <h3 class="footer__suscripcion__titulo">Suscribete a nuestro newsletter</h3>
+                <div class="footer__suscripcion__cont">
+                    <input type="text" class="correo"  placeholder="Correo electrónico">
+                       
+                        <button class="footer__suscripcion__cont__btn">Inscribirse</button>
+                </div>
+                <p class="footer__suscripcion__txt">Lorem ipsum dolor sit amet consectetur   </p>
+
+                
+        </div>
+
+        <div  class="footer__redes">
+            <img class="footer__redes__svg" src="./images/twitter.svg" alt="">
+            <img class="footer__redes__svg" src="./images/facebook.svg" alt="">
+            <img class="footer__redes__svg" src="./images/instagram.svg" alt="">
+        </div>
+
+    </section>
+   
    
 
     <div class="producto">
@@ -112,6 +167,15 @@
 
     </div>
    
+        <div class="carrito">
+        <p>Carrito</p>
+        <span class="carrito__num"></span>
+    </div>
+
+    <div class="carrito-desplegado">
+        <h3>Carrito</h3>
+        <ul class="carrito-desplegado__lista"></ul>
+    </div>
      
      
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
