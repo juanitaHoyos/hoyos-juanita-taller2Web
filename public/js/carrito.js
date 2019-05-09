@@ -42,11 +42,13 @@ function actualizarCarrito(){
 console.log(listaProductos);
     
     carritoNum.innerHTML = listaProductos.length;
-
+/*
     listaCarrito.innerHTML = '';
     listaProductos.forEach(function(producto){
-        listaCarrito.innerHTML += '<img src="' + producto.imagen + '" width="50">' + producto.nombre;
+       // listaCarrito.innerHTML += '<img src="' + producto.imagen + '" width="50">' + producto.nombre;
+        listaCarrito.innerHTML +=  producto.nombre;
     });
+    */
 }
 
  actualizarCarrito();
