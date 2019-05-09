@@ -56,14 +56,40 @@
  
     </section>
   
-   
-     <div class="producto">
-                            
-        <h5 class="producto__precio">{{precio}}</h5>
-        
-        <button name="{{nombre}}" class="agregar">Agregar</button>
 
-    </div>
+
+   
+     <div class="productoF">
+         
+        <section class="productoF__contenedor">
+            <p class="productoF__descripcion">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+ <img  class="productoF__icono" src="../images/persona.png" alt="" height="21px" width="7px">
+
+  <img class="productoF__icono2" src="../images/estrellas.png" alt="calificacion" height="21">
+            <ul class="productoF__especificaciones">
+                 
+                <li class="productoF__item">
+                     <img  class="productoF__icono" data-src="../public/images/Ipersona.png" alt="">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li class="productoF__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+
+            </ul>
+             <button name="{{nombre}}" class="agregar">Agregar</button>
+
+        </section>
+        <section class="productoF__contenedor-dos">
+             <h5 class="productoF__precio">${{precio}}</h5>
+        </section>                    
+      
+     </div>
+       
+
         <div class="carrito">
         <p>Carrito</p>
         <span class="carrito__num"></span>
@@ -72,6 +98,18 @@
     <div class="carrito-desplegado">
         <h3>Carrito</h3>
         <ul class="carrito-desplegado__lista"></ul>
+    </div>
+   
+
+    <div class="producto">
+         
+          
+        <img  class="producto__imagen" src={{urlImg}} alt="" width="50px"height="50px">
+       
+        <h3 class="producto__nombre">{{nombre}}</h3>
+        <h5 class="producto__precio">{{precio}}</h5>
+        <button name="{{nombre}}" class="agregar">Agregar</button>
+
     </div>
    
      

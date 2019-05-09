@@ -183,13 +183,14 @@
       
         color: #fff;
        // line-height: 80px;
-        padding-bottom: 35px;
+        padding-bottom: 5px;
         
       }
       &__estrellas{
-        
-          width: 60px;
-         
+        margin-left: 5px;
+          width: 70px;
+          height: 13px;
+         padding: 0px;
           margin-bottom: 10px;
           margin-top: 0px;
       
@@ -204,4 +205,46 @@
     
   }
 
+.productoF{
+
+  display: flex;
+  width:100%;
+
+  &__contenedor{
+    background-color: rgb(44, 44, 44);
+ 
+    width:70%;
+    padding: 60px;
+    
+    margin-left: 30px;
+  }
+
+  &__especificaciones{
+    list-style-type: none;
+  }
+ 
+  
+  &__contenedor-dos{
+    width:30%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 40px;
+    padding: 50px;
+
+    
+
+  }
+
+  &__precio{
+    margin-top: 5%;
+    font-weight: 200;
+    font-size: 23px;
+    color: #ff9100;
+   
+  
+    
+  }
+}
   
