@@ -9,3 +9,4 @@ function buscarPorPrecio(){
 if(intPrecio){
     intPrecio.addEventListener('change', buscarPorPrecio);
 }
+
