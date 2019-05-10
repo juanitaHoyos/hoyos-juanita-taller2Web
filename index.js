@@ -89,6 +89,13 @@ app.get('/producto/:nombre', function(req, res){
     
 });
 
+app.get('/carrito', function(req, res){
+    
+    res.render('carrito');
+    
+});
+
+
 app.listen(3000,function(){
     console.log('hola!');
 });
