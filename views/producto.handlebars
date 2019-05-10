@@ -59,7 +59,7 @@
 
 
    
-     <div class="productoF">
+     <section class="productoF">
          
         <section class="productoF__contenedor">
             <p class="productoF__descripcion">
@@ -96,6 +96,14 @@
             </div>
          
 
+            <div class="productoF__galeria">
+                <h2 class="productoF__galeria__titulo">Galería</h2>
+                <p class="productoF__galeria__descripcion">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                
+            </div>
+
+            
 
              
              <button name="{{nombre}}" class="agregar">Agregar</button>
@@ -105,8 +113,51 @@
              <h5 class="productoF__precio">${{precio}}</h5>
         </section>                    
       
-     </div>
-       
+     </section>
+
+    <section class="interaccion"> 
+         <div class="interaccion__cont__botones__destinos swiper-container swiperDestino">
+
+        <div class="interaccion__cont__botones__destinos-wrapper swiper-wrapper">
+
+            <article style="background-image: url({{urlImg}});" class="interaccion__cont__botones__destino swiper-slide">
+                <p class="interaccion__cont__botones__destino__desc">Venecia </p>
+            </article>
+
+            <article style="background-image: url({{urlImg}});" class="interaccion__cont__botones__destino swiper-slide">
+                <p class="interaccion__cont__botones__destino__desc">Venecia </p>
+            </article>
+
+            <article style="background-image: url({{urlImg}});" class="interaccion__cont__botones__destino swiper-slide">
+                <p class="interaccion__cont__botones__destino__desc">Venecia </p>
+            </article>
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    </section>
+
+    <section class="comprar">
+
+            <div class="comprar__cont">
+                <h2 class="comprar__titulo">¿Quieres viajar a este lugar?</h2>
+                <p class="comprar__descripcion">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                
+            </div>
+
+        <button class="comprar_boton">
+            
+
+        </button>
+
+    </section>
+
+
+  
+
       <section class="inscripcion" data-src={{urlImg}} data-pos-x="left" data-parallax>
 
         <div class="inscripcion__cont">
@@ -147,9 +198,9 @@
         </div>
 
         <div  class="footer__redes">
-            <img class="footer__redes__svg" src="./images/twitter.svg" alt="">
-            <img class="footer__redes__svg" src="./images/facebook.svg" alt="">
-            <img class="footer__redes__svg" src="./images/instagram.svg" alt="">
+            <img class="footer__redes__svg" src="../images/twitter.svg" alt="">
+            <img class="footer__redes__svg" src="../images/facebook.svg" alt="">
+            <img class="footer__redes__svg" src="../images/instagram.svg" alt="">
         </div>
 
     </section>
