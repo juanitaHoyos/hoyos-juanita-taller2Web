@@ -23,6 +23,15 @@ slider.oninput = function() {
   output.innerHTML = this.value;
 }
 
+var sliderD = document.getElementById("inputPrecio");
+var outputD = document.getElementById("precio");
+outputD.innerHTML = sliderD.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+sliderD.oninput = function() {
+  outputD.innerHTML = this.value;
+}
+
 //libs
 var swiper = new Swiper('.swiperDestino', {
   navigation: {
