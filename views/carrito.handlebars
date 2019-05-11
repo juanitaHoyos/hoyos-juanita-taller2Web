@@ -79,6 +79,134 @@
     
 
    
+    <section class="tienda">
+        
+            <article class="seccion-productos">
+    {{#each listaProductos}}
+    <div class="productoF">
+         <a class="productoF-link" href="/producto/{{nombre}}">
+          
+        <img  class="productoF__imagen" src={{urlImg}} alt="">
+        </a>
+        
+        <h3 class="productoF__nombre">{{nombre}}</h3>
+        <h5 class="productoF__precio">{{precio}}</h5>
+        <button name="{{nombre}}" class="agregar">Agregar</button>
+
+    </div>
+   
+    
+    {{/each}}
+
+    </article>
+
+    <article class="seccion-lateral">
+
+         <a href="/store?dias=1">1</a>
+     <a href="/store?dias=2">2</a>
+     <a href="/store?dias=3">3</a>
+     <a href="/store?dias=4">4</a>
+     <a href="/store?dias=5">5</a>
+
+     <a href="/store?estrellas=1">1 estrellas</a>
+     <a href="/store?estrellas=2">2 estrellas</a>
+     <a href="/store?estrellas=3">3 estrellas</a>
+     <a href="/store?estrellas=4">4 estrellas</a>
+     <a href="/store?estrellas=5">5 estrellas</a>
+
+    <input value={{valorInput}} id="inputPrecio" type="range" name="precio" min="1000" max="16000">
+
+            <div class="seccion-lateral__botones">
+                <button class="seccion-lateral__boton">
+                 <img src="../images/guardar.png" alt="" width="47px" height="29px">
+                <br>
+                <p class="comprar__botonC__texto">Trending</p>
+                </button>
+                <button class="seccion-lateral__boton">
+                 <img src="../images/guardar.png" alt="" width="47px" height="29px">
+                <br>
+                <p class="comprar__botonC__texto">Aleatorio</p>
+                </button>
+                <button class="seccion-lateral__boton">
+                 <img src="../images/guardar.png" alt="" width="47px" height="29px">
+                <br>
+                <p class="comprar__botonC__texto">Cruceros</p>
+                </button>
+                <button class="seccion-lateral__boton">
+                 <img src="../images/guardar.png" alt="" width="47px" height="29px">
+                <br>
+                <p class="comprar__botonC__texto">Ecológico</p>
+                </button>
+                <button class="seccion-lateral__boton">
+                 <img src="../images/guardar.png" alt="" width="47px" height="29px">
+                <br>
+                <p class="comprar__botonC__texto">Pet friendly</p>
+                </button>
+                       
+            </div>
+    </article>
+
+          <section class="inscripcion" data-src="../images/globo.png" data-pos-x="left" data-parallax>
+
+
+         <div class="inscripcion__cont">
+                <h2 class="inscripcion__titulo">¿Nada aún?</h2>
+                <p class="inscripcion__descripcion">¡Prueba la catergoría aleatoria y encuentra nuevos lugares por explorar!</p>
+
+                
+            </div>
+
+
+        <button class="inscripcion__boton">
+            <img src="../images/brujula.png" alt="" width="26px" height="26px">
+            <br>
+            <p class="inscripcion__boton__texto">Aleatorio</p>
+                       
+
+        </button>
+
+    </section>
+
+
+     <section class="footer">
+
+      
+        <div class="footer__cont">
+                <div class="footer__cont__contacto">
+                        <h3 class="footer__cont__contacto__titulo">Contacto</h3>
+                   <p class="footer__cont__contacto__txt">  ultrices, morbi turpis nascetur ante iaculis sodales  </p>
+           
+                   </div>
+                   <div class="footer__cont__local">
+                           <h3 class="footer__cont__local__titulo">¿Dónde encontrarnos?</h3>
+                           <p class="footer__cont__local__txt">Lorem ipsum dolor sit amet consectetur adipiscing elit ultrices, morbi turpis nascetur ante iaculis sodales fringilla, faucibus vel cursus velit at phasellus placerat. Leo nullam vel ultrices aptent natoque velit, dictumst laoreet  </p>
+           
+                   </div>
+        </div>
+      
+        <div class="footer__suscripcion">
+
+                <h3 class="footer__suscripcion__titulo">Suscribete a nuestro newsletter</h3>
+                <div class="footer__suscripcion__cont">
+                    <input type="text" class="correo"  placeholder="Correo electrónico">
+                       
+                        <button class="footer__suscripcion__cont__btn">Inscribirse</button>
+                </div>
+                <p class="footer__suscripcion__txt">Lorem ipsum dolor sit amet consectetur   </p>
+
+                
+        </div>
+
+        <div  class="footer__redes">
+            <img class="footer__redes__svg" src="../images/twitter.svg" alt="">
+            <img class="footer__redes__svg" src="../images/facebook.svg" alt="">
+            <img class="footer__redes__svg" src="../images/instagram.svg" alt="">
+        </div>
+
+    </section>
+   
+    
+    </section>
 
 
    
