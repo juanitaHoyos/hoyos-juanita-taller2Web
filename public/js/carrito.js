@@ -67,13 +67,34 @@ function actualizarCarrito(){
 console.log(listaProductos);
     
     carritoNum.innerHTML = listaProductos.length;
-/*
-    listaCarrito.innerHTML = '';
-    listaProductos.forEach(function(producto){
-       // listaCarrito.innerHTML += '<img src="' + producto.imagen + '" width="50">' + producto.nombre;
-        listaCarrito.innerHTML +=  producto.nombre;
-    });
-    */
+        if(listaCarrito !=null){
+            listaCarrito.innerHTML = '';
+            listaProductos.forEach(function(producto,index){
+                    listaCarrito.innerHTML +=  `
+                    
+                     
+                    <div class="productoF">
+                    <a class="productoF-link" href="/producto/${nombre}">
+                    
+                    <img  class="productoF__imagen" src=${urlImg} alt="">
+                    </a>
+                    
+                    <h3 class="productoF__nombre">${nombre}</h3>
+                    <h5 class="productoF__precio">${precio}</h5>
+                    <button name="${nombre}" class="agregar">Agregar</button>
+    
+                </div>
+            
+                    
+
+                    `
+
+                
+            });
+            
+            
+        }
+  
 }
 
  actualizarCarrito();

@@ -19,7 +19,14 @@
     
   }
 
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
 .navi {
+
+
     background-color: transparent;
     
     display: flex;
@@ -67,8 +74,8 @@
           }
           
           &__activo {
-            border-bottom: 1px solid #ff9100;
-            color: #ff9100 !important;
+            //border-bottom: 1px solid #ff9100;
+           // color: #ff9100 !important;
           }
           
         }
@@ -80,6 +87,10 @@
         
         &__lupa {
           width: 12px;
+          height:12px;
+          margin: 0px;
+          padding: 0px;
+
         }
         
         &__txt {
@@ -125,7 +136,10 @@
             border: 1px solid #fff;
             cursor: pointer;
             transition: 200ms;
-            
+            text-decoration: none;
+            background: #ff9100;
+            border: 1px solid #ff9100;
+            color: white;
           }
   
           &__signup:hover {
@@ -142,6 +156,7 @@
       
     }
   }
+
   .link-carrito{
     text-decoration: none;
     color: white;
@@ -151,7 +166,7 @@ display: flex;
 align-items: center;
 
   }
-  .primera {
+.primera {
     //background: url('../images/tours.jpg');
     
     height: auto;
@@ -165,7 +180,7 @@ align-items: center;
       margin-top: 200px;
       margin-left: 10%;
       padding-bottom: 150px;
-      &__titulo {
+      .producto__nombre {
         padding-top: 80px;
         font-size: 70px;
         font-family: 'Open Sans Condensed';
@@ -185,8 +200,18 @@ align-items: center;
       
         color: #fff;
        // line-height: 80px;
-        padding-bottom: 35px;
+        padding-bottom: 5px;
         
+      }
+      &__estrellas{
+        margin-left: 5px;
+          width: 70px;
+          height: 13px;
+         padding: 0px;
+          margin-bottom: 10px;
+          margin-top: 0px;
+      
+
       }
       
    
@@ -197,303 +222,186 @@ align-items: center;
     
   }
 
-.tienda{
-    width: 100%;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-flex-shrink: 0;
-}
 
-.seccion-productos{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: rgb(36,36,36);
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-
-}
 
 a{
     text-decoration: none;
-    color: rgb(116, 116, 116);
 }
 
+.checkout{
+    background-color: rgb(36, 36, 36);
+    display:flex;
+    padding-bottom: 5%;
 
 
-.productoF{
+    &__cont1{
+        width:60%;
+        padding:3%;
+        padding-left: 6%;
+    }
 
-  background: rgb(47, 47, 47);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
+    &__titulo{
+        display: inline;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #ff9100;
+        font-weight: 200;
+    }
 
+    &__descripcion{
+        color: rgb(144, 144, 144);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    &__descripcion2{
+        color: rgb(144, 144, 144);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__descripcion3{
+        color: rgb(144, 144, 144);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30%;
+    }
+    &__viaje{
+        margin-top: 20px;
+        background: rgb(47, 47, 47);
+        width: 50%;
+        padding: 3%;
+        color: rgb(144, 144, 144);
+        &__titulo{
+            margin-bottom: 5px;
+            font-weight: 800;
+        }
+    }
 
-  
-  img{
-      width: 280px;
-      height: 220px;
-      margin-bottom: 10px;
-      margin-top: 0px;
-  }
+    &__input{
+        background-color: rgb(47, 47, 47);
+        width: 45%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(47, 47, 47);
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: rgb(144, 144, 144);
 
-  &__cont{
-    width: 280px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding:10px;
-    padding-top: 0px;
+    }
 
+    
+
+    &__factura{
+        width:40%;
+        padding-top: 19%;
+        padding-left: 0%;
         
-      &__der{
-       // background-color: goldenrod;
-        width: 40%;
-      
-      }
-      &__izq{
-       // background-color: green;
-        width: 60%;
-        padding-left: 5px;
-
        
+        
+        
+        background-color: rgb(36, 36, 36);
+
+      &__cuadro{
+        background-color: rgb(47, 47, 47);
+        width:80%;
+        padding: 3%;
+      }  
+    &__cont{
+       // margin-right: 30px;
+        width:100%;
+      } 
+    
+      &__cont2{
+      //  margin-right: 30px;
+        width: 100%;
       }
-  }
-
-  &__nombre{
-    width: 100%;
-   
-    color: #ff9100;
-    font-weight: 400;
-    font-size: 16px;
-   // margin-right: 460px;
-    margin-bottom: 10px;
-  }
-  &__descripcion{
-    width: 70%;
-   
-    color: lightgray;
-    font-weight: 200;
-    font-size: 16px;
-   // margin-right: 460px;
-   
-  }
-
-  &__precio{
-    width: 100%;
-  
-    color: #ff9100;
-    font-weight: 400;
-    font-size: 16px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-  }
-
-}
-
-.agregar{
-  background: #ff9100;
-  padding: 10px 16px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: 400;
-  border: none;
-  margin-top: 10px;
-  border-radius: 5px;
-  font-size: 12px;
-
-}
-.seccion-lateral{
-  background-color: rgb(36, 36, 36);
-    width: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    padding-right: 5%;
-    justify-content: flex-end;
-    padding-top: 4%;
-   
-    &__dias{
-     padding-left: 1140px;
-    }
-
-    &__estrella{
-     // margin: 25px;
-      padding-left: 60px;
-     // width:70%;
-     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-   
-    justify-content: flex-end;
-   
-
-     
-
-    }
-
-    &__precio{
+      &__titulo{
+        margin-top: 5%;
+        font-weight: 200;
+        font-size: 30px;
+        color: #ff9100;
+      }
+      &__titulo2{
       
-      -webkit-appearance: none;
-            
-            height: 8px;
-            border-radius: 5px;
-            background: rgb(49, 49, 49);
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-            margin-top: 10px;
-            margin-bottom: 10px;
-           // margin-right: 30px;
-            width:75%;
-            &::-webkit-slider-thumb {
-              -webkit-appearance: none;
-              appearance: none;
-              width: 20px;
-              height: 20px;
-              border-radius: 50%;
-              background: #ff9100;
-              cursor: pointer;
-            }
-            
-            &::-moz-range-thumb {
-              width: 25px;
-              height: 25px;
-              border-radius: 50%;
-              background: #ff9100;
-              cursor: pointer;
-            }
-    }
-    &__precioNum{
-      width: 100%;
+        font-weight: 200;
+        font-size: 30px;
+        color: #ff9100;
+      }
+      &__descripcion{
+        width: 100%;
         margin-top: 15px;
         color: lightgray;
         font-weight: 200;
         font-size: 16px;
        // margin-right: 460px;
         margin-bottom: 10px;
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: flex-start;
-        
-        justify-content: flex-end;
-
-    }
-    &__titulo{
-      margin-top: 10%;
-      margin-bottom: 5%;
-      margin-left: 30%;
+      }   
+      &__item{
+        width: 100%;
+        margin-top: 15px;
+        color: lightgray;
         font-weight: 200;
-        font-size: 25px;
-        color: #ff9100;
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: flex-start;
-        
-        justify-content: flex-end;
-    }
-    &__botones{
-     // width:70%;
-     display: flex;
-     flex-wrap: wrap;
-     align-content: flex-start;
-     padding-right: 5%;
-     justify-content: flex-end;
-    }
-    &__boton{
-      
-      margin: 5px;
-      margin-right: 0px;
-      margin-left: 10px;
-      background: rgb(47, 47, 47);
-      //padding: 10px;
-      color: #fff;
-      cursor: pointer;
-      font-weight: 200;
-      border: none;
-      width:88px;
-      height:88px;
-      border-radius: 5px;
-      font-size: 12px;
-      
-      cursor: pointer;
-            transition: 200ms;
-  
-      &__texto{
-        margin-top: 10px;
+        font-size: 16px;
+      //  margin-right: 460px;
+        margin-bottom: 10px;
+      }
+      &__precio{
+        width: 100%;
+        margin-top: 15px;
+        color: lightgray;
+        font-weight: 200;
+        font-size: 16px;
+       // margin-right: 460px;
+        margin-bottom: 10px;
       }
   
-    }
-
-    &__boton:hover{
-      
-      background: #ff9100;
-    }
-
-}
-
-.inscripcion{
-  display: flex;
-  width:100%;
-  
-  flex-wrap: wrap;
-  padding: 100px;
-  padding-top: 40px;
-
-  &__cont{
-    margin-right: 30px;
-  }
-
-
-  &__titulo{
-    margin-top: 5%;
-    font-weight: 200;
-    font-size: 30px;
-    color: #ff9100;
-  }
-  &__descripcion{
-    width: 100%;
-    margin-top: 15px;
-    color: lightgray;
-    font-weight: 200;
-    font-size: 16px;
-    margin-right: 460px;
-    margin-bottom: 10px;
-  }
- 
-
-  &__boton{
-    margin: 20px;
-    background: #ff9100;
-    padding: 20px 58px;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 200;
-    border: none;
+      &__precioTotal{
+        width: 100%;
+        margin-top: 15px;
+        color: #ff9100;
+        font-weight: 200;
+        font-size: 16px;
+      //  margin-right: 460px;
+        margin-bottom: 10px;
+      }
+      &__minicont{
+        width: 90%;
+        border-bottom: 0.5px solid rgb(78, 78, 78);
+      }
+      &__boton{
+        margin-top: 30px;
+        background: #ff9100;
+        padding: 15px 78px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 200;
+        border: none;
+        
+        border-radius: 5px;
+        font-size: 12px;
     
-    border-radius: 5px;
-    font-size: 12px;
-
-    &__texto{
-      margin-top: 10px;
+        &__texto{
+          //margin-top: 10px;
+        }
     }
-
-  }
+    }
+    
 }
+
+
+
+
+
+
   
+
+
 
 .footer{
   
   display: flex;
   color: white;
-  background:rgb(34, 34, 34);
+  background:rgb(22, 22, 22);
   padding: 60px;
 
   align-items: flex-start;
@@ -619,29 +527,4 @@ a{
     }
   }
 
-}
-
-
-
-
-
-
-
-
-.producto{
-
-  background-color: rgb(46, 75, 75);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
-
-
-  
-  img{
-      width: 280px;
-      height: 220px;
-      margin-bottom: 10px;
-      margin-top: 0px;
-  }
 }

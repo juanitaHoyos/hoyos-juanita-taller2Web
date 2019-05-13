@@ -66,20 +66,24 @@
     {{#each listaProductos}}
     <div class="productoF">
 
-        <div class="productoF__cont__izq">
-                <a class="productoF-link" href="/producto/{{nombre}}">
+             <a class="productoF-link" href="/producto/{{nombre}}">
                 
                 <img  class="productoF__imagen" src={{urlImg}} alt="">
                 </a>
-        </div>
-         
-        
-        <h3 class="productoF__nombre">{{nombre}}</h3>
-        <div class="productoF__cont__der">
-                    <h5 class="productoF__precio">{{precio}}</h5>
-        <button name="{{nombre}}" class="agregar">Guardar plan</button>
-        </div>
-        
+
+            <div class="productoF__cont">
+                        <div class="productoF__cont__izq">
+                                <h3 class="productoF__nombre">{{nombre}}</h3>
+                                <p class="productoF__descripcion">Lorem ipsum dolor sit amet.</p>
+                        </div>         
+                        
+                    
+                        <div class="productoF__cont__der">
+                                    <h5 class="productoF__precio">${{precio}}</h5>
+                        <button name="{{nombre}}" class="agregar">Guardar plan</button>
+                        </div>
+             </div>
+                
 
     </div>
    
@@ -91,15 +95,19 @@
     <article class="seccion-lateral">
 
         <h1 class="seccion-lateral__titulo"> Número de dias</h1>
-         <a href="/store?dias=1">1</a>
-     <a href="/store?dias=2">2</a>
-     <a href="/store?dias=3">3</a>
-     <a href="/store?dias=4">4</a>
-     <a href="/store?dias=5">5</a>
+       <br>
+       <div class="seccion-lateral__dias">
+           <a class="seccion-lateral__opcion" href="/store?dias=1">1</a>
+            <a class="seccion-lateral__opcion" href="/store?dias=2">2</a>
+            <a class="seccion-lateral__opcion" href="/store?dias=3">3</a>
+            <a class="seccion-lateral__opcion" href="/store?dias=4">4</a>
+            <a class="seccion-lateral__opcion"href="/store?dias=5">5</a>
+       </div>
+         
 
-   
+    <h1 class="seccion-lateral__titulo"> Lujo</h1>
    <div class="seccion-lateral__estrella">
-       <h1 class="seccion-lateral__titulo"> Lujo</h1>
+      
          <a class="seccion-lateral__estrella__item"  href="/store?estrellas=1">
           1 estrella
      <img class="seccion-lateral__estrella__icon" src="../images/1e.png">
@@ -147,11 +155,12 @@
    </div>
     
     <h1 class="seccion-lateral__titulo"> Precio</h1>
-     <h5 class="seccion-lateral__precioNum" id="precio" >00</h5>
-    <input class="seccion-lateral__precio" value={{valorInput}} id="inputPrecio" type="range" name="precio" min="1000" max="16000">
-
+    <br>
      
-
+    <input class="seccion-lateral__precio" value={{valorInput}} id="inputPrecio" type="range" name="precio" min="1000" max="16000">
+        <h5 class="seccion-lateral__precioNum" id="precio" >00</h5>
+     
+        <h1 class="seccion-lateral__titulo"> Categorías</h1>
             <div class="seccion-lateral__botones">
                 <button class="seccion-lateral__boton">
                  <img src="../images/vector.png" alt="" width="17px" height="22px">

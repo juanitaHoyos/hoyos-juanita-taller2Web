@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="stylesheet" href="/styles/carrito.css">
+     <link rel="stylesheet" href="/styles/checkout.css">
      <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans+Condensed:700|Roboto:300,300i,400" rel="stylesheet">
 
     <title>Document</title>
@@ -48,93 +48,75 @@
 
  <section class="primera" data-src="/images/tours.jpg" data-pos-x="left" data-parallax>
         <div class="primera__banner">
-            <h1 class="producto__nombre">TUS VIAJES</h1>
-            <h5 class="primera__banner__frase">Aquí hemos guardado lo que te ha interesado</h5>
+            <h1 class="producto__nombre">Checkout</h1>
+            <h5 class="primera__banner__frase">A un paso de hacer realidad tu viaje</h5>
             
         </div>
 
  
 </section>
 
-    <article class="seccion-productos">
-            
-            <div class="productoF">
-                <a class="productoF-link" href="/producto/{{nombre}}">
-                
-                <img  class="productoF__imagen" src="../images/avion.jpg" alt="">
-                </a>
-                
-                <h3 class="productoF__nombre">Bahamas</h3>
-                <h5 class="productoF__precio">$4000</h5>
-               
-
-            </div>
-        
-            
-            
-
- 
-    </article>
-  
-    <article class="seccion-guardados">
- 
-                <div class="seccion-guardados__cont">
-                <h2 class="seccion-guardados__titulo">¿Has decidido?</h2>
-                <p class="seccion-guardados__descripcion">¡Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!</p>
-
-                 <h2 class="seccion-guardados__titulo">A pagar</h2>
-              <div class="seccion-guardados__minicont">
-                  <p class="seccion-guardados__item">Paquete de viaje a BAHAMAS</p>
-              <p class="seccion-guardados__precio">$4000</p>
-              </div>
-              
-              <h2 class="seccion-guardados__titulo2">Total a pagar: $4000</h2>
-              
-
-                <button class="seccion-guardados__boton">
-            
-            <p class="seccion-guardados__boton__texto"><a href="/checkout" class="seccion-guardados__boton__texto">Continuar</a></p>
-                       
-
-        </button>
-
-            </div>
-
-             
-
-           
-
-        
-               
-
-       
-
-
-    </article>
-
-
    
 
-      <section class="inscripcion" data-src="../images/globo.png" data-pos-x="left" data-parallax>
+    <section class="checkout">
 
+        <div class="checkout__cont1">
+                 <div class="checkout__descripcion">
+            <img src="../images/carro.png" alt=""> 
+            <h2 class="checkout__titulo">¡Hola viajero!</h2>
 
-         <div class="inscripcion__cont">
-                <h2 class="inscripcion__titulo">¿Nada aún?</h2>
-                <p class="inscripcion__descripcion">¡Prueba la catergoría aleatoria y encuentra nuevos lugares por explorar!</p>
+            <p class="checkout__descripcion3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+             <h4 class="checkout__titulo">¿A dónde irás?</h4>
+
+             <div class="checkout__viaje">
+                 <p class="checkout__viaje__titulo">Plan Bahamas</p>
+                <p class="checkout__viaje__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+             </div>
+
+                  </div>
+
+                <div class="checkout__info">
+                        <h3 class="checkout__titulo">Ingresa tus datos</h3>
+                        <p class="checkout__descripcion2">Ingresa aqui el numero de tu cuenta</p>
+                        <img src="../images/tarjeta.png" alt=""> 
+                        <input class="checkout__input" type="text" name="tarjeta" value="" placeholder="1111-1111-1111-0000"><br>
+                         <p class="checkout__descripcion2">Ingresa aqui las fechas de salida y regreso de tu viaje</p>
+                        <img src="../images/fecha.png" alt="">
+                        <input class="checkout__input" type="text" name="fecha" value="" placeholder="07/10/19-20/10/19"><br>
+                        
+
+                </div>
+        </div>
+       
+
+        <div class="checkout__factura">
+
+            <div class="checkout__factura__cuadro">
+                         <h2 class="checkout__titulo">A pagar</h2>
+              <div class="checkout__factura__minicont">
+                  <p class="checkout__factura__item">Paquete de viaje a BAHAMAS</p>
+              <p class="checkout__factura__precio">$4000</p>
+              </div>
+              
+              <h2 class="checkout__factura__titulo2">Total a pagar: $4000</h2>
+              
 
                 
             </div>
+            
+            <button class="checkout__factura__boton">
+            
+                 <p class="checkout__factura__boton__texto"><a href="/checkout" class="checkout__factura__boton__texto">Confirmar compra</a></p>
+                 </button>
 
+        </div>
 
-        <button class="inscripcion__boton">
-            <img src="../images/brujula.png" alt="" width="26px" height="26px">
-            <br>
-            <p class="inscripcion__boton__texto">Aleatorio</p>
-                       
-
-        </button>
+         
 
     </section>
+
 
 
      <section class="footer">

@@ -95,6 +95,11 @@ app.get('/carrito', function(req, res){
     
 });
 
+app.get('/checkout', function(req, res){
+    
+    res.render('checkout');
+    
+});
 
 app.listen(3000,function(){
     console.log('hola!');

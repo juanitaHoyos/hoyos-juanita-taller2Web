@@ -14,6 +14,7 @@ function parallax(){
     }
 }*/
 
+/*
 var slider = document.getElementById("slide");
 var output = document.getElementById("dias");
 output.innerHTML = slider.value; // Display the default slider value
@@ -22,6 +23,9 @@ output.innerHTML = slider.value; // Display the default slider value
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
+
+*/
+
 
 var sliderD = document.getElementById("inputPrecio");
 var outputD = document.getElementById("precio");
