@@ -16,8 +16,11 @@ botonesAgregar.forEach(botonProducto => {
     event.preventDefault;      
       //console.log(this.getAttribute("name"));  
     //aqui se grega el producto al carrito
-
-    var padre = this.parentNode;
+    
+    let tataraabuelo = this.parentNode;
+    let abuelo = tataraabuelo.parentNode;
+    let padre = abuelo.parentNode;
+    console.log(padre);
     var nombre = padre.querySelector('.productoF__nombre').innerText;
     var precio = padre.querySelector('.productoF__precio').innerText;
     var imagen = padre.querySelector('.productoF__imagen').src;
@@ -71,19 +74,23 @@ console.log(listaProductos);
             listaCarrito.innerHTML = '';
             listaProductos.forEach(function(producto,index){
                     listaCarrito.innerHTML +=  `
-                    
+                    <div class="contenedor">
+                            <div class="productoF">
+                            <a class="productoF-link" href="/producto/${producto.nombre}">
+                            
+                            <img  class="productoF__imagen" src=${producto.imagen} alt="">
+                            </a>
+                            <div class="productoF__cont"> 
+                            <h3 class="productoF__nombre">${producto.nombre}</h3>
+                            <h5 class="productoF__precio">${producto.precio}</h5>
+                            </div>
+            
+                            </div>
+                    </div>
                      
-                    <div class="productoF">
-                    <a class="productoF-link" href="/producto/${nombre}">
                     
-                    <img  class="productoF__imagen" src=${urlImg} alt="">
-                    </a>
-                    
-                    <h3 class="productoF__nombre">${nombre}</h3>
-                    <h5 class="productoF__precio">${precio}</h5>
-                    <button name="${nombre}" class="agregar">Agregar</button>
-    
-                </div>
+
+                
             
                     
 
@@ -93,6 +100,39 @@ console.log(listaProductos);
             });
             
             
+        }
+
+        let precios = document.querySelectorAll(".productoF__precio");
+   
+        let precio = 0;
+        let text_precio = "";
+        let actual__total = localStorage.getItem("totalPagar");
+        if(actual__total != null){
+            text_precio = actual__total;
+        }
+
+        if(precios != null && precios.length > 0){
+        
+            precio = 0;
+            precios.forEach((p, i)=>{
+                let ori = (p.innerText);
+                let pre = ori.split("$");
+                let num = parseInt(pre[1]);
+              
+                precio += num;
+            });
+        
+            text_precio = "Total a pagar: $" + precio;
+            localStorage.setItem("totalPagar", text_precio);
+        }
+
+        
+        let zona__precio = document.querySelectorAll(".view__texto");
+        if(zona__precio != null){
+            zona__precio.forEach((p)=>{
+                p.innerHTML = text_precio;
+            });
+           
         }
   
 }

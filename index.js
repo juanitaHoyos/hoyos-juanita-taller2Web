@@ -100,7 +100,22 @@ app.get('/checkout', function(req, res){
     res.render('checkout');
     
 });
+ 
+//CHECKOUT
+app.post('/login',function(request,response){
+    var pedido = {
+        productos:JSON.parse(request.body.productos)
+    }
 
+    var collection = db.collection('pedidos');
+    collection.insertOne(pedido, function(err){
+        assert.equal(err, null);
+
+        console.log('pedido guardado');
+    });
+    response.redirect('/home');
+
+});
 app.listen(3000,function(){
     console.log('hola!');
 });
