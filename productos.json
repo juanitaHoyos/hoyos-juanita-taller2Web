@@ -1,12 +1,12 @@
 [
     
     {
-        "nombre": "shangai",
+        "nombre": "shanghai",
         "dias": 6,
         "estrellas":5,
         "precio": 6000,
         "etiquetas": [ "aleatorio"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/shanghai.jpg"
         
     }
     ,
@@ -16,7 +16,7 @@
         "estrellas":5,
         "precio": 4000,
         "etiquetas": ["trending","ecologico", "playas", "aleatorio"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/playa.jpg"
         
     }
     
@@ -27,7 +27,7 @@
         "estrellas":5,
         "precio": 14000,
         "etiquetas": ["trending","pet friendly", "para niños", "aleatorio", "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/italia.jpg"
     }
     
     ,
@@ -37,7 +37,7 @@
         "estrellas":5,
         "precio": 6000,
         "etiquetas": ["trending",  "para niños", "aleatorio"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/disneyland.jpg"
         
     }
     
@@ -48,7 +48,7 @@
         "estrellas":4,
         "precio": 4000,
         "etiquetas": [  "ecologico", "aleatorio"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/patagonia.jpg"
         
     }
     ,
@@ -58,7 +58,7 @@
         "estrellas":5,
         "precio": 14000,
         "etiquetas": ["trending", "aleatorio", "pet friendly", "para niños"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/paris.jpg"
         
     }
     ,
@@ -68,7 +68,7 @@
         "estrellas":3,
         "precio": 4000,
         "etiquetas": [ "aleatorio",  "ecologico", "pet friendly"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/alpes.jpg"
         
     }
     ,
@@ -78,7 +78,7 @@
         "estrellas":5,
         "precio": 9000,
         "etiquetas": ["aleatorio", "pet friendly"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/amsterdam.jpg"
         
     }
     ,
@@ -88,7 +88,7 @@
         "estrellas":5,
         "precio": 4000,
         "etiquetas": ["trending", "aleatorio", "cruceros", "para niños", "playas"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/mediterraneo.jpg"
         
     }
     ,
@@ -98,7 +98,7 @@
         "estrellas":5,
         "precio": 4000,
         "etiquetas": ["aleatorio", "ecologico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/yellowstone.jpg"
         
     }
     ,
@@ -108,7 +108,7 @@
         "estrellas":5,
         "precio": 14000,
         "etiquetas": [ "aleatorio","pet friendly",  "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/roma.jpg"
         
     }
     ,
@@ -118,7 +118,7 @@
         "estrellas":5,
         "precio": 9000,
         "etiquetas": ["trending", "aleatorio", "cruceros", "para niños", "playas"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/caribe.jpg"
         
     }
     ,
@@ -128,7 +128,7 @@
         "estrellas":4,
         "precio": 6000,
         "etiquetas": ["trending", "aleatorio", "pet friendly", "para niños", "playas","historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/cartagena.jpg"
         
     }
     ,
@@ -138,7 +138,7 @@
         "estrellas":3,
         "precio": 3000,
         "etiquetas": [ "aleatorio", "ecologico", "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/machupichu.jpg"
         
     }
     
@@ -149,7 +149,7 @@
         "estrellas":3,
         "precio": 6000,
         "etiquetas": ["trending", "aleatorio", "ecologico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/kenya.jpg"
         
     }
     ,
@@ -159,7 +159,7 @@
         "estrellas":4,
         "precio": 4000,
         "etiquetas": ["trending", "aleatorio", "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/moscu.jpg"
     }
     ,
     {
@@ -168,7 +168,7 @@
         "estrellas":3,
         "precio": 3000,
         "etiquetas": ["aleatorio", "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/stonehenge.jpg"
         
     }
     ,
@@ -178,7 +178,7 @@
         "estrellas":3,
         "precio": 7000,
         "etiquetas": [ "aleatorio", "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/india.jpg"
         
     }
     ,
@@ -189,7 +189,7 @@
         "precio": 8000,
         "etiquetas": ["trending", "aleatorio", "ecologico", "pet friendly", "para niños", "playas", "historico"]
         ,
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/cancun.jpg"
     }
     ,
     {
@@ -198,7 +198,7 @@
         "estrellas":4,
         "precio": 5000,
         "etiquetas": ["aleatorio","ecologico", "historico"],
-        "urlImg": "/images/avion.jpg"
+        "urlImg": "/images/cappadocia.jpg"
         
     }
     
